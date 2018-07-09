@@ -1,0 +1,184 @@
+/*-------------------------------------------*/
+/*                                           */
+/*                 FRAME                     */
+/*                                           */
+/*-------------------------------------------*/
+body{
+	background-color: #E3E3E5;
+}
+.frame{
+	width: 800px;
+	height: auto;
+	left: 50%;
+	margin: -10px 0 0 -400px;
+	position: absolute;
+	color: #3F3F41;
+	font-family: Century Gothic, Arial;
+	background-color: #FFF;
+	-webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.25);
+	box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.25);
+	text-align: center;
+}
+.logo {
+    max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.menu{
+	color: #3F3F41;
+	font-family: Century Gothic, Arial;
+	text-align: center;
+	height: 76px;
+}
+.menu a{
+    width: 25%;
+    color: #FFF;
+    background-color: #3F3F41;
+    font-size: 20px;
+    float: left;
+    padding-top: 24px;
+    height: 50px;
+    cursor: pointer;
+	font-weight: 800;
+}
+.menu a:link,
+.menu a:hover,
+.menu a:visited,
+.menu a:active {
+	text-decoration:none;
+}
+.menu a:hover {
+    color: #3F3F41;
+    background-color: #E6E6E6;
+}
+.menu .active{
+	color: #3F3F41;
+	background-color: #A5CE37;
+}
+.hugeMenu{
+	padding-top: 12px !important;
+	padding-bottom: 12px;
+}
+.content{
+	text-align: left;
+}
+.finalLine{
+	background-color: #3F3F41;
+	width: 100%;
+	height: 5px;
+}
+h2{
+	margin: 50px;
+}
+.aligned-inside-container{
+	margin-left: 50px;
+}
+.hide{
+	display:none;
+}
+.preloader{
+	height: 500px;
+}
+.preloader-image{
+	left: 50%;
+	margin-left: -200px;
+	position: absolute;
+}
+/*-------------------------------------------*/
+/*                                           */
+/*               HOME PAGE                   */
+/*                                           */
+/*-------------------------------------------*/
+
+.imgHome{
+	margin-bottom: -4px;
+}
+.infoTable{
+	width: 100%;
+	height: 130px;
+	text-align: left;
+	color: #FFF;
+	text-align: right;
+}
+.blueTable{
+	background-color: #56c3cb;
+}
+.greenTable{
+	background-color: #A5CE37;
+}
+.leftTable{
+	width: 160px;
+	padding-left: 50px;
+	float: left;
+	font-size: 22px;
+	font-weight: bold;
+	height: 90px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.rightTable{
+	margin-top: 15px;
+	height: 30px;
+	width: 540px;
+	float: left;
+	font-size: 20px;
+	text-align: right;
+}
+.smallest-details{
+	margin-top: 3px;
+	font-size: 9px;
+}
+.small-details {
+    font-size: 10px;
+}
+.details {
+    font-size: 15px;
+}
+
+/*-------------------------------------------*/
+/*                                           */
+/*           HOURSCONTROL PAGE               */
+/*                                           */
+/*-------------------------------------------*/
+
+.hourTable{
+	margin-bottom: 10px;
+}
+
+/*-------------------------------------------*/
+/*                                           */
+/*         FINANCIALCONTROL PAGE             */
+/*                                           */
+/*-------------------------------------------*/
+
+.financial-table{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.space{
+	width: 100%;
+	height: 40px;
+}
+/*-------------------------------------------*/
+/*                                           */
+/*               LOGIN PAGE                  */
+/*                                           */
+/*-------------------------------------------*/
+
+.formLogin{
+	text-align: center;
+	margin-top: 120px;
+	margin-bottom: 280px;
+}
+
+.loginInput{
+	margin-bottom: 5px;
+}
+
+.errorWarning{
+	font-size: 12px;
+	margin-bottom: 5px;
+	color: #FF0000;
+}
